@@ -1,0 +1,60 @@
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%)
+                     translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: no-repeat;
+  background-size: cover;
+}
+
+.q1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 50%;
+  bottom: 50%;
+}
+
+.q2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 50%;
+}
+
+.q3 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+}
+
+.q4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
