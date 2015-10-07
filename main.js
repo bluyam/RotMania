@@ -29,8 +29,8 @@ function beFruitfulAndMultiply(element) {
   var parentNodeId = tempElement.parentNode.id;
   console.log(parentNodeId);
   removeElement(element.id);
-  addElement(parentNodeId, "div", "q1", "johnCenaHead1FIX.gif", tempElement.id);
-  addElement(parentNodeId, "div", "q2", "johnCenaHead2FIX.gif", tempElement.id);
-  addElement(parentNodeId, "div", "q3", "johnCenaHead2FIX.gif", tempElement.id);
-  addElement(parentNodeId, "div", "q4", "johnCenaHead1FIX.gif", tempElement.id);
+  addElement(parentNodeId, "div", "q1", "Rot.gif", tempElement.id);
+  addElement(parentNodeId, "div", "q2", "Man.gif", tempElement.id);
+  addElement(parentNodeId, "div", "q3", "Man.gif", tempElement.id);
+  addElement(parentNodeId, "div", "q4", "Rot.gif", tempElement.id);
 }
